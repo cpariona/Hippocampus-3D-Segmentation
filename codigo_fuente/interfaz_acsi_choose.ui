@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>segunda_ventana</class>
+ <widget class="QMainWindow" name="segunda_ventana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>236</width>
+    <height>88</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>upch_logo.png</normaloff>upch_logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(76, 76, 76);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="c_frame">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+color: rgb(6, 5, 50);
+font: 9pt &quot;Segoe MDL2 Assets&quot;;
+background-color:rgb(167, 190, 203);
+border-style:outset;
+border-top-left-radius: 4px;
+border-radius: 4px;
+border-width: 2px;
+padding: 2px;
+border-color: rgb(34, 48, 38);
+}</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_frame_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: rgb(6, 5, 50);
+font: 8pt &quot;Segoe MDL2 Assets&quot;;
+background-color:rgb(167, 190, 203);
+border-style:outset;
+border-radius: 4px;
+border-width: 1px;
+padding: 2px;
+border-color: rgb(34, 48, 38);
+}</string>
+    </property>
+    <property name="text">
+     <string>Escoger frame:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="acept_f">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(6, 5, 50);
+font: 9pt &quot;Segoe MDL2 Assets&quot;;
+background-color:rgb(221, 230, 237);
+border-style:outset;
+border-top-left-radius: 4px;
+border-radius: 4px;
+border-width: 1.5px;
+padding: 2px;
+border-color: rgb(27, 38, 30);
+}</string>
+    </property>
+    <property name="text">
+     <string>Aceptar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
